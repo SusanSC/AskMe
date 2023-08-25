@@ -1,0 +1,68 @@
+
+ body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+#chatBox {
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  border: 3px solid #E7D9EA;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #ffffff;
+  background-color: #E7D9EA;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+
+}
+
+.alienThink{
+  width: 150px;
+  margin-top: 20px
+} 
+
+
+.responseBox{
+  background-color: #16C79A;
+  width: fit-content;
+  padding: 5px 10px;
+  margin-top: 30px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.questionType{
+  margin: 25px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.logo{
+  width: 40px;
+}
+
+.form{ 
+  display: flex;
+  flex-direction: row;
+}
+
+.submitBtn{
+  margin-left: 10px;
+}
